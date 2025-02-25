@@ -1,3 +1,32 @@
 .idea
 */.idea
 */cmake-build-debug
+*/build
+*/dist
+icon.iconset
+
+*/*/cmake-build-debug
+main_app/js
+main_app/nottoboard/static/
+scripts/ssh
+.idea/
+.vscode/
+*/node_modules/
+*/__pycache__/
+*/*.log
+
+# local static files
+*/staticfiles
+*/static/js
+# db
+db-data_local/
+db-data_test/
+db-data_etl/
+*/*/static/js/
+*/*/static/css/
+
+# Django coverage
+*/htmlcov
+.coverage
+
+
